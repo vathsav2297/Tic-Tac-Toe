@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe</title>
+	<link rel="stylesheet" type="text/css" href="tictac.css">
+	<script type="text/javascript" src="tictactoe.js"></script>
+</head>
+<body>
+<h1>Tic Tac Toe</h1>
+<table>
+	<tr>
+		<td id="1" onclick="execute(this,0,0)"></td>
+		<td id="2" onclick="execute(this,1,3)"></td>
+		<td id="3" onclick="execute(this,2,6)"></td>
+	</tr>
+	<tr>
+		<td id="4" onclick="execute(this,3,1)"></td>
+		<td id="5" onclick="execute(this,4,4)"></td>
+		<td id="6" onclick="execute(this,5,7)"></td>
+	</tr>
+	<tr>
+		<td id="7" onclick="execute(this,6,2)"></td>
+		<td id="8" onclick="execute(this,7,5)"></td>
+		<td id="9" onclick="execute(this,8,8)"></td>
+	</tr>
+</table>
+<div>
+	<form method="get">
+		<input type="submit" name="reset" id="again" value="play again">
+	</form>
+	<table class="info" >
+	<tr>
+		<td id="black" class="colo">Player-1</td>
+	</tr>
+	<tr>
+		<td id="red" class="colo">Player-2</td>
+	</tr>
+	</table>
+</div>
+<footer>
+	<h6>Created by <a href="https://github.com/vathsav2297/tic"target="_blank">SriVathsav</a></h6>
+</footer>
+</body>
+</html>
